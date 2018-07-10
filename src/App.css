@@ -3,12 +3,23 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 20px;
+  margin: 20px;
 }
 
 .DropDown {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 20px
+}
+
+.Label {
+  margin: 20px;
+}
+
+.Select {
+  margin: 10px;
 }
 
 .Form {

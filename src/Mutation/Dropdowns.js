@@ -57,7 +57,7 @@ class DropDown extends Component {
 
             return (
               <form className="Form">
-                <label>
+                <label className="Label">
                   Date:
                   <select
                     value={this.props.date}
@@ -66,11 +66,12 @@ class DropDown extends Component {
                       this.props.place,
                       update_date
                     )}
+                    className="Select"
                   >
                     {dateOptions}
                   </select>
                 </label>
-                <label>
+                <label className="Label">
                   Place:
                   <select
                     value={this.props.place}
@@ -79,6 +80,7 @@ class DropDown extends Component {
                       e.target.value,
                       update_date
                     )}
+                    className="Select"
                   >
                     {placeOptions}
                   </select>
