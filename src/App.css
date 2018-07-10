@@ -1,0 +1,18 @@
+.App {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.DropDown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
